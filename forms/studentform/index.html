@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon"
+            href="https://img.freepik.com/free-vector/basic-rgb_53876-36894.jpg?t=st=1711952685~exp=1711956285~hmac=4b3c4b5ee57cf207d756f55d9f52e24e002320f57ed04e72d06fe0e0cd49899b&w=740"
+            type="image/x-icon">
+   
+</head>
+<body>
+   <div>
+        
+        <form action="./res.html" class ="form">
+            <img src="./pexels-cytonn-photography-955389.jpg" alt="image" class="image" style="float: left;">
+            <h1>Student Registration Form</h1>
+            <div>
+               
+                <select id="" name="">
+                    <label for=""></label> <option value="">Choose one</option>
+                <label for=""></label> <option value="MR.">MR</option>
+                <label for=""></label> <option value="MRs.">MRs</option>
+                <label for=""></label> <option value="Miss">Miss</option>
+                </select>
+                <label for="fn">First Name: <sup style="color: red;">*</sup></label>
+                <input type="text" value="" id="fn" placeholder="Enter your Name" required><br><br>
+                <input type="text" id="fn" name="fname" placeholder="Enter first Name" pattern="[A-Za-z0-9]+@[A-Za-z]+.[A-Za-z]{3}"
+                        title="Errorrrr" required>
+                <label for ="ln">Last Name:</label>
+                <input type="text" value="" id="ln" placeholder="Enter your Last name" ><br>
+             </div><br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email:" value="" id="email" placeholder="Enter EmailID">
+            </div><br>
+            <div>
+                <label for="pwd">Password:</label>
+                <input type="password" id="pwd" value="" placeholder="Enter password" minlength="10">
+            </div><br>
+            <div>
+                <label for="dob">Date of Birth:</label>
+                 <input type="date" id="dob" value="">
+            </div><br>
+<div>
+    <label>Choose the Gender</label>
+    <input type="radio" name="gender" value="male" id="m"><label for="m">male</label>
+    <input type="radio" name="gender" value="female" id="f"><label for="f">female</label>
+</div><br>
+<div>
+    <label>Mobile Number:</label>
+    <input type="number" value="number" id="mobile" placeholder="Enter your number">
+</div><br>
+<div>
+    <label>Languages Known</label>
+    <input type="checkbox" value="English" id="eng" name="language"><label for="eng">English</label>
+<input type="checkbox" value="Hindi" id="hin" name="language"><label for="hin">Hindi</label>
+<input type="checkbox" value="Telugu" id="tel" name="language"><label for="tel">Telugu</label>
+</div><br>
+<div>
+    <label>Choose the Course:</label>
+    <select name="" id="">
+        <option value="">Please Choose</option>
+        <option value="BTech">BTech</option>
+        <option value="Degree">Degree</option>
+        <option value="MTech">MTech</option>
+        <option value="B.Ed">B.Ed</option>
+        <option value="MBA">MBA</option>
+    </select>
+</div><br>
+<div>
+    <label>Choose the Subjects</label>
+    <select id="" name="">
+        <option value="">please select</option>
+        <optgroup label="Common">
+            <option value="Maths">Maths</option>
+            <option value="Science">Science</option>
+            <option value="Maths">Science</option>
+            <option value="English">English</option>
+                </optgroup>
+    <optgroup label="mechanical">
+        <option value="ED">ED</option>
+        <option value="Fluids">Fluids</option>
+    </optgroup>
+   <optgroup label="EEE">
+    <option value="Networking">Networking</option>
+    <option value="workshop">Workshop</option>
+   </optgroup>
+    <optgroup label="ECE">
+        <option value="OS">OS</option>
+        <option value="EDC">EDC</option>
+    </optgroup>
+    <optgroup label="CSE">
+        <option value="C++">C</option>
+        <option value="Java">Java</option>
+    </optgroup>
+</div><br>
+   
+  </select>
+  <div>
+    <label for="">Enter FeedBack:</label>
+    <textarea name="" id="" cols="50" rows="5" minlength="10" max="20"></textarea>
+</div><br>
+<div>
+</div>
+<div>
+ <button type="submit">submit</button>
+    <button type="reset">Reset</button>
+</div><br>
+        </form>
+        <footer>All * fields are mandatory</footer>
+    </div>
+</body>
+</html>
