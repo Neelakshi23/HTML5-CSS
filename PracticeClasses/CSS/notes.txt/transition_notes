@@ -1,0 +1,9 @@
+Transition : It means going from one 
+one state to another state
+transition: transition-name time timimg-fn delay-time;
+
+transform: used to transform the elements
+
+scale--> to zoom;
+rotate-->rotate the elmenent using deg
+translate-->move the elemnt to x axis or y axis
